@@ -32,6 +32,7 @@
     }
     
     numberOfElements = i;
+    
     [self displayArray];
 }
 
@@ -51,11 +52,13 @@
 
 - (IBAction)addElement:(id)sender {
     // Put your code to add the element here;
+    numberOfElements++;
     [self displayArray];
 }
 
 - (IBAction)removeElement:(id)sender {
     // Put your code to remove the element here;
+    numberOfElements--;
     [self displayArray];
 }
 
